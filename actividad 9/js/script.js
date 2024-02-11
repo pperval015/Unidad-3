@@ -6,6 +6,6 @@ function Factorial() {
     while (iteracion <= numero) {
         resultado = resultado * iteracion;
         iteracion= iteracion + 1;
-        document.getElementById("solucion").innerHTML = "El factorial de " + numero + " es " + resultado;
         }
+    document.getElementById("solucion").innerHTML = "El factorial de " + numero + " es " + resultado;
 }
