@@ -4,8 +4,8 @@ function Factorial() {
     let iteracion= 1;
 
     while (iteracion <= numero) {
-        resultado = resultado * iteracion;
         iteracion= iteracion + 1;
+        resultado = resultado * iteracion;
         }
     document.getElementById("solucion").innerHTML = "El factorial de " + numero + " es " + resultado;
 }
